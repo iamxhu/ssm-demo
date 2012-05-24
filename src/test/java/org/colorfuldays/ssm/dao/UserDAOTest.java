@@ -5,8 +5,6 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.colorfuldays.ssm.domain.UserDO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -20,8 +18,8 @@ import java.io.IOException;
  * Date: 12-5-18
  * Time: 下午6:14
  */
-@ContextConfiguration(locations = {"classpath:context.xml"})
-public class UserDAOTest extends AbstractTestNGSpringContextTests {
+
+public class UserDAOTest extends BaseTestngTest{
     private static final Logger LOG = LoggerFactory.getLogger(UserDAOTest.class);
     @Resource
     UserDAO userDAO;

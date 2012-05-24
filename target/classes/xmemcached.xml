@@ -31,13 +31,14 @@
         </property>
         <property name="cacheTranscoders">
             <map>
-                <entry key="org.colorfuldays.ssm.domain.UserDO" value-ref="jsonTranscoder"/>
+                <entry key="org.colorfuldays.ssm.domain.BookDO" value-ref="jsonTranscoder"/>
+                <entry key="org.colorfuldays.ssm.domain.UserDO" value-ref="userProtobufTranscoder"/>
             </map>
         </property>
     </bean>
 
     <bean name="jsonTranscoder" class="com.google.code.ssm.transcoders.JsonTranscoder">
-        <constructor-arg index="0"  value="org.colorfuldays.ssm.domain.UserDO"/>
+        <constructor-arg index="0"  value="org.colorfuldays.ssm.domain.BookDO"/>
         <constructor-arg index="1">
             <ref bean="JsonObjectMapper"/>
         </constructor-arg>
@@ -46,6 +47,7 @@
         </constructor-arg>
     </bean>
 
+    <bean name="userProtobufTranscoder" class="org.colorfuldays.ssm.transcoders.ProtobufTranscoder"/>
     <bean name="longToStringTranscoder" class="com.google.code.ssm.transcoders.LongToStringTranscoder"/>
     <bean name="JsonObjectMapper" class="org.codehaus.jackson.map.ObjectMapper"/>
 </beans>

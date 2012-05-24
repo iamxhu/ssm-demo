@@ -1,0 +1,23 @@
+/**
+ * Created by IntelliJ IDEA.
+ * User: huxing(xing.hu@360hqb.com)
+ * Date: 12-5-22
+ * Time: 下午2:22 
+ */
+package org.colorfuldays.ssm.domain.protobuf;
+
+option java_package = "org.colorfuldays.ssm.domain.protobuf";
+
+message User{
+    optional int64 id = 1;
+    optional string name = 2;
+    optional string password = 3;
+}
+
+message book{
+    optional int64 id = 1;
+    optional string name = 2;
+    optional string isbn = 3;
+    repeated string author = 4;
+    optional int64 publish_date = 5;
+}

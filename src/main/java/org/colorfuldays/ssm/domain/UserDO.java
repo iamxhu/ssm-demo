@@ -1,16 +1,28 @@
 package org.colorfuldays.ssm.domain;
 
+import org.colorfuldays.ssm.domain.protobuf.Ssm;
+
 import java.io.Serializable;
 
 /**
  * Created by IntelliJ IDEA.
- * User: huxing(xing.hu@360hqb.com)
+ * User: huxing(huxing1985@gmail.com)
  * Date: 12-5-18
  * Time: 下午5:44
  */
 public class UserDO implements Serializable{
 
     private static final long serialVersionUID = -9096141633317522945L;
+
+    public UserDO(Ssm.User user) {
+        this.name = user.getName();
+        this.password = user.getPassword();
+        this.id = user.getId();
+    }
+
+    public UserDO() {
+
+    }
 
     private String name;
     private Long id;

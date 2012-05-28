@@ -534,7 +534,7 @@ public final class Ssm {
     // @@protoc_insertion_point(class_scope:org.colorfuldays.ssm.domain.protobuf.User)
   }
   
-  public interface bookOrBuilder
+  public interface BookOrBuilder
       extends com.google.protobuf.MessageOrBuilder {
     
     // optional int64 id = 1;
@@ -558,32 +558,32 @@ public final class Ssm {
     boolean hasPublishDate();
     long getPublishDate();
   }
-  public static final class book extends
+  public static final class Book extends
       com.google.protobuf.GeneratedMessage
-      implements bookOrBuilder {
-    // Use book.newBuilder() to construct.
-    private book(Builder builder) {
+      implements BookOrBuilder {
+    // Use Book.newBuilder() to construct.
+    private Book(Builder builder) {
       super(builder);
     }
-    private book(boolean noInit) {}
+    private Book(boolean noInit) {}
     
-    private static final book defaultInstance;
-    public static book getDefaultInstance() {
+    private static final Book defaultInstance;
+    public static Book getDefaultInstance() {
       return defaultInstance;
     }
     
-    public book getDefaultInstanceForType() {
+    public Book getDefaultInstanceForType() {
       return defaultInstance;
     }
     
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_book_descriptor;
+      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Book_descriptor;
     }
     
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_book_fieldAccessorTable;
+      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Book_fieldAccessorTable;
     }
     
     private int bitField0_;
@@ -765,41 +765,41 @@ public final class Ssm {
       return super.writeReplace();
     }
     
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(byte[] data)
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(java.io.InputStream input)
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input, extensionRegistry)
                .buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseDelimitedFrom(java.io.InputStream input)
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       Builder builder = newBuilder();
       if (builder.mergeDelimitedFrom(input)) {
@@ -808,7 +808,7 @@ public final class Ssm {
         return null;
       }
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseDelimitedFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -819,12 +819,12 @@ public final class Ssm {
         return null;
       }
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static org.colorfuldays.ssm.domain.protobuf.Ssm.book parseFrom(
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Book parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -834,7 +834,7 @@ public final class Ssm {
     
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(org.colorfuldays.ssm.domain.protobuf.Ssm.book prototype) {
+    public static Builder newBuilder(org.colorfuldays.ssm.domain.protobuf.Ssm.Book prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -847,18 +847,18 @@ public final class Ssm {
     }
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements org.colorfuldays.ssm.domain.protobuf.Ssm.bookOrBuilder {
+       implements org.colorfuldays.ssm.domain.protobuf.Ssm.BookOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_book_descriptor;
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Book_descriptor;
       }
       
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_book_fieldAccessorTable;
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Book_fieldAccessorTable;
       }
       
-      // Construct using org.colorfuldays.ssm.domain.protobuf.Ssm.book.newBuilder()
+      // Construct using org.colorfuldays.ssm.domain.protobuf.Ssm.Book.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -896,24 +896,24 @@ public final class Ssm {
       
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return org.colorfuldays.ssm.domain.protobuf.Ssm.book.getDescriptor();
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.Book.getDescriptor();
       }
       
-      public org.colorfuldays.ssm.domain.protobuf.Ssm.book getDefaultInstanceForType() {
-        return org.colorfuldays.ssm.domain.protobuf.Ssm.book.getDefaultInstance();
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.Book getDefaultInstanceForType() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.Book.getDefaultInstance();
       }
       
-      public org.colorfuldays.ssm.domain.protobuf.Ssm.book build() {
-        org.colorfuldays.ssm.domain.protobuf.Ssm.book result = buildPartial();
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.Book build() {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.Book result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
       
-      private org.colorfuldays.ssm.domain.protobuf.Ssm.book buildParsed()
+      private org.colorfuldays.ssm.domain.protobuf.Ssm.Book buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        org.colorfuldays.ssm.domain.protobuf.Ssm.book result = buildPartial();
+        org.colorfuldays.ssm.domain.protobuf.Ssm.Book result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
@@ -921,8 +921,8 @@ public final class Ssm {
         return result;
       }
       
-      public org.colorfuldays.ssm.domain.protobuf.Ssm.book buildPartial() {
-        org.colorfuldays.ssm.domain.protobuf.Ssm.book result = new org.colorfuldays.ssm.domain.protobuf.Ssm.book(this);
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.Book buildPartial() {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.Book result = new org.colorfuldays.ssm.domain.protobuf.Ssm.Book(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -953,16 +953,16 @@ public final class Ssm {
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof org.colorfuldays.ssm.domain.protobuf.Ssm.book) {
-          return mergeFrom((org.colorfuldays.ssm.domain.protobuf.Ssm.book)other);
+        if (other instanceof org.colorfuldays.ssm.domain.protobuf.Ssm.Book) {
+          return mergeFrom((org.colorfuldays.ssm.domain.protobuf.Ssm.Book)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
       
-      public Builder mergeFrom(org.colorfuldays.ssm.domain.protobuf.Ssm.book other) {
-        if (other == org.colorfuldays.ssm.domain.protobuf.Ssm.book.getDefaultInstance()) return this;
+      public Builder mergeFrom(org.colorfuldays.ssm.domain.protobuf.Ssm.Book other) {
+        if (other == org.colorfuldays.ssm.domain.protobuf.Ssm.Book.getDefaultInstance()) return this;
         if (other.hasId()) {
           setId(other.getId());
         }
@@ -1217,15 +1217,1035 @@ public final class Ssm {
         return this;
       }
       
-      // @@protoc_insertion_point(builder_scope:org.colorfuldays.ssm.domain.protobuf.book)
+      // @@protoc_insertion_point(builder_scope:org.colorfuldays.ssm.domain.protobuf.Book)
     }
     
     static {
-      defaultInstance = new book(true);
+      defaultInstance = new Book(true);
       defaultInstance.initFields();
     }
     
-    // @@protoc_insertion_point(class_scope:org.colorfuldays.ssm.domain.protobuf.book)
+    // @@protoc_insertion_point(class_scope:org.colorfuldays.ssm.domain.protobuf.Book)
+  }
+  
+  public interface MapEntityOrBuilder
+      extends com.google.protobuf.MessageOrBuilder {
+    
+    // optional string key = 1;
+    boolean hasKey();
+    String getKey();
+    
+    // optional string value = 2;
+    boolean hasValue();
+    String getValue();
+  }
+  public static final class MapEntity extends
+      com.google.protobuf.GeneratedMessage
+      implements MapEntityOrBuilder {
+    // Use MapEntity.newBuilder() to construct.
+    private MapEntity(Builder builder) {
+      super(builder);
+    }
+    private MapEntity(boolean noInit) {}
+    
+    private static final MapEntity defaultInstance;
+    public static MapEntity getDefaultInstance() {
+      return defaultInstance;
+    }
+    
+    public MapEntity getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+    
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_descriptor;
+    }
+    
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_fieldAccessorTable;
+    }
+    
+    private int bitField0_;
+    // optional string key = 1;
+    public static final int KEY_FIELD_NUMBER = 1;
+    private java.lang.Object key_;
+    public boolean hasKey() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    public String getKey() {
+      java.lang.Object ref = key_;
+      if (ref instanceof String) {
+        return (String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        String s = bs.toStringUtf8();
+        if (com.google.protobuf.Internal.isValidUtf8(bs)) {
+          key_ = s;
+        }
+        return s;
+      }
+    }
+    private com.google.protobuf.ByteString getKeyBytes() {
+      java.lang.Object ref = key_;
+      if (ref instanceof String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8((String) ref);
+        key_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+    
+    // optional string value = 2;
+    public static final int VALUE_FIELD_NUMBER = 2;
+    private java.lang.Object value_;
+    public boolean hasValue() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    public String getValue() {
+      java.lang.Object ref = value_;
+      if (ref instanceof String) {
+        return (String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        String s = bs.toStringUtf8();
+        if (com.google.protobuf.Internal.isValidUtf8(bs)) {
+          value_ = s;
+        }
+        return s;
+      }
+    }
+    private com.google.protobuf.ByteString getValueBytes() {
+      java.lang.Object ref = value_;
+      if (ref instanceof String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8((String) ref);
+        value_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+    
+    private void initFields() {
+      key_ = "";
+      value_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+      
+      memoizedIsInitialized = 1;
+      return true;
+    }
+    
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getKeyBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getValueBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+    
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getKeyBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getValueBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+    
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+    
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data, extensionRegistry)
+               .buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data, extensionRegistry)
+               .buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input, extensionRegistry)
+               .buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      Builder builder = newBuilder();
+      if (builder.mergeDelimitedFrom(input)) {
+        return builder.buildParsed();
+      } else {
+        return null;
+      }
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      Builder builder = newBuilder();
+      if (builder.mergeDelimitedFrom(input, extensionRegistry)) {
+        return builder.buildParsed();
+      } else {
+        return null;
+      }
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input, extensionRegistry)
+               .buildParsed();
+    }
+    
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+    
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder>
+       implements org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_descriptor;
+      }
+      
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_fieldAccessorTable;
+      }
+      
+      // Construct using org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.newBuilder()
+      public Builder() {
+        maybeForceBuilderInitialization();
+      }
+      
+      private Builder(BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+      
+      public Builder clear() {
+        super.clear();
+        key_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        value_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        return this;
+      }
+      
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+      
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.getDescriptor();
+      }
+      
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity getDefaultInstanceForType() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.getDefaultInstance();
+      }
+      
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity build() {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+      
+      private org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity buildParsed()
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(
+            result).asInvalidProtocolBufferException();
+        }
+        return result;
+      }
+      
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity buildPartial() {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity result = new org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.key_ = key_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.value_ = value_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+      
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity) {
+          return mergeFrom((org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+      
+      public Builder mergeFrom(org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity other) {
+        if (other == org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.getDefaultInstance()) return this;
+        if (other.hasKey()) {
+          setKey(other.getKey());
+        }
+        if (other.hasValue()) {
+          setValue(other.getValue());
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+      
+      public final boolean isInitialized() {
+        return true;
+      }
+      
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder(
+            this.getUnknownFields());
+        while (true) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              this.setUnknownFields(unknownFields.build());
+              onChanged();
+              return this;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                this.setUnknownFields(unknownFields.build());
+                onChanged();
+                return this;
+              }
+              break;
+            }
+            case 10: {
+              bitField0_ |= 0x00000001;
+              key_ = input.readBytes();
+              break;
+            }
+            case 18: {
+              bitField0_ |= 0x00000002;
+              value_ = input.readBytes();
+              break;
+            }
+          }
+        }
+      }
+      
+      private int bitField0_;
+      
+      // optional string key = 1;
+      private java.lang.Object key_ = "";
+      public boolean hasKey() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      public String getKey() {
+        java.lang.Object ref = key_;
+        if (!(ref instanceof String)) {
+          String s = ((com.google.protobuf.ByteString) ref).toStringUtf8();
+          key_ = s;
+          return s;
+        } else {
+          return (String) ref;
+        }
+      }
+      public Builder setKey(String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        key_ = value;
+        onChanged();
+        return this;
+      }
+      public Builder clearKey() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        key_ = getDefaultInstance().getKey();
+        onChanged();
+        return this;
+      }
+      void setKey(com.google.protobuf.ByteString value) {
+        bitField0_ |= 0x00000001;
+        key_ = value;
+        onChanged();
+      }
+      
+      // optional string value = 2;
+      private java.lang.Object value_ = "";
+      public boolean hasValue() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      public String getValue() {
+        java.lang.Object ref = value_;
+        if (!(ref instanceof String)) {
+          String s = ((com.google.protobuf.ByteString) ref).toStringUtf8();
+          value_ = s;
+          return s;
+        } else {
+          return (String) ref;
+        }
+      }
+      public Builder setValue(String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        value_ = value;
+        onChanged();
+        return this;
+      }
+      public Builder clearValue() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        value_ = getDefaultInstance().getValue();
+        onChanged();
+        return this;
+      }
+      void setValue(com.google.protobuf.ByteString value) {
+        bitField0_ |= 0x00000002;
+        value_ = value;
+        onChanged();
+      }
+      
+      // @@protoc_insertion_point(builder_scope:org.colorfuldays.ssm.domain.protobuf.MapEntity)
+    }
+    
+    static {
+      defaultInstance = new MapEntity(true);
+      defaultInstance.initFields();
+    }
+    
+    // @@protoc_insertion_point(class_scope:org.colorfuldays.ssm.domain.protobuf.MapEntity)
+  }
+  
+  public interface SessionOrBuilder
+      extends com.google.protobuf.MessageOrBuilder {
+    
+    // repeated .org.colorfuldays.ssm.domain.protobuf.MapEntity attributes = 1;
+    java.util.List<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity> 
+        getAttributesList();
+    org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity getAttributes(int index);
+    int getAttributesCount();
+    java.util.List<? extends org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder> 
+        getAttributesOrBuilderList();
+    org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder getAttributesOrBuilder(
+        int index);
+  }
+  public static final class Session extends
+      com.google.protobuf.GeneratedMessage
+      implements SessionOrBuilder {
+    // Use Session.newBuilder() to construct.
+    private Session(Builder builder) {
+      super(builder);
+    }
+    private Session(boolean noInit) {}
+    
+    private static final Session defaultInstance;
+    public static Session getDefaultInstance() {
+      return defaultInstance;
+    }
+    
+    public Session getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+    
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Session_descriptor;
+    }
+    
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Session_fieldAccessorTable;
+    }
+    
+    // repeated .org.colorfuldays.ssm.domain.protobuf.MapEntity attributes = 1;
+    public static final int ATTRIBUTES_FIELD_NUMBER = 1;
+    private java.util.List<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity> attributes_;
+    public java.util.List<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity> getAttributesList() {
+      return attributes_;
+    }
+    public java.util.List<? extends org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder> 
+        getAttributesOrBuilderList() {
+      return attributes_;
+    }
+    public int getAttributesCount() {
+      return attributes_.size();
+    }
+    public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity getAttributes(int index) {
+      return attributes_.get(index);
+    }
+    public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder getAttributesOrBuilder(
+        int index) {
+      return attributes_.get(index);
+    }
+    
+    private void initFields() {
+      attributes_ = java.util.Collections.emptyList();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+      
+      memoizedIsInitialized = 1;
+      return true;
+    }
+    
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      for (int i = 0; i < attributes_.size(); i++) {
+        output.writeMessage(1, attributes_.get(i));
+      }
+      getUnknownFields().writeTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+    
+      size = 0;
+      for (int i = 0; i < attributes_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, attributes_.get(i));
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+    
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+    
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data, extensionRegistry)
+               .buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return newBuilder().mergeFrom(data, extensionRegistry)
+               .buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input, extensionRegistry)
+               .buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      Builder builder = newBuilder();
+      if (builder.mergeDelimitedFrom(input)) {
+        return builder.buildParsed();
+      } else {
+        return null;
+      }
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      Builder builder = newBuilder();
+      if (builder.mergeDelimitedFrom(input, extensionRegistry)) {
+        return builder.buildParsed();
+      } else {
+        return null;
+      }
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input).buildParsed();
+    }
+    public static org.colorfuldays.ssm.domain.protobuf.Ssm.Session parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return newBuilder().mergeFrom(input, extensionRegistry)
+               .buildParsed();
+    }
+    
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(org.colorfuldays.ssm.domain.protobuf.Ssm.Session prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+    
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder>
+       implements org.colorfuldays.ssm.domain.protobuf.Ssm.SessionOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Session_descriptor;
+      }
+      
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.internal_static_org_colorfuldays_ssm_domain_protobuf_Session_fieldAccessorTable;
+      }
+      
+      // Construct using org.colorfuldays.ssm.domain.protobuf.Ssm.Session.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+      
+      private Builder(BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getAttributesFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+      
+      public Builder clear() {
+        super.clear();
+        if (attributesBuilder_ == null) {
+          attributes_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          attributesBuilder_.clear();
+        }
+        return this;
+      }
+      
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+      
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.Session.getDescriptor();
+      }
+      
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.Session getDefaultInstanceForType() {
+        return org.colorfuldays.ssm.domain.protobuf.Ssm.Session.getDefaultInstance();
+      }
+      
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.Session build() {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.Session result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+      
+      private org.colorfuldays.ssm.domain.protobuf.Ssm.Session buildParsed()
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.Session result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(
+            result).asInvalidProtocolBufferException();
+        }
+        return result;
+      }
+      
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.Session buildPartial() {
+        org.colorfuldays.ssm.domain.protobuf.Ssm.Session result = new org.colorfuldays.ssm.domain.protobuf.Ssm.Session(this);
+        int from_bitField0_ = bitField0_;
+        if (attributesBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
+            attributes_ = java.util.Collections.unmodifiableList(attributes_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.attributes_ = attributes_;
+        } else {
+          result.attributes_ = attributesBuilder_.build();
+        }
+        onBuilt();
+        return result;
+      }
+      
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof org.colorfuldays.ssm.domain.protobuf.Ssm.Session) {
+          return mergeFrom((org.colorfuldays.ssm.domain.protobuf.Ssm.Session)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+      
+      public Builder mergeFrom(org.colorfuldays.ssm.domain.protobuf.Ssm.Session other) {
+        if (other == org.colorfuldays.ssm.domain.protobuf.Ssm.Session.getDefaultInstance()) return this;
+        if (attributesBuilder_ == null) {
+          if (!other.attributes_.isEmpty()) {
+            if (attributes_.isEmpty()) {
+              attributes_ = other.attributes_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureAttributesIsMutable();
+              attributes_.addAll(other.attributes_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.attributes_.isEmpty()) {
+            if (attributesBuilder_.isEmpty()) {
+              attributesBuilder_.dispose();
+              attributesBuilder_ = null;
+              attributes_ = other.attributes_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              attributesBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getAttributesFieldBuilder() : null;
+            } else {
+              attributesBuilder_.addAllMessages(other.attributes_);
+            }
+          }
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+      
+      public final boolean isInitialized() {
+        return true;
+      }
+      
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder(
+            this.getUnknownFields());
+        while (true) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              this.setUnknownFields(unknownFields.build());
+              onChanged();
+              return this;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                this.setUnknownFields(unknownFields.build());
+                onChanged();
+                return this;
+              }
+              break;
+            }
+            case 10: {
+              org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder subBuilder = org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.newBuilder();
+              input.readMessage(subBuilder, extensionRegistry);
+              addAttributes(subBuilder.buildPartial());
+              break;
+            }
+          }
+        }
+      }
+      
+      private int bitField0_;
+      
+      // repeated .org.colorfuldays.ssm.domain.protobuf.MapEntity attributes = 1;
+      private java.util.List<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity> attributes_ =
+        java.util.Collections.emptyList();
+      private void ensureAttributesIsMutable() {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
+          attributes_ = new java.util.ArrayList<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity>(attributes_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      
+      private com.google.protobuf.RepeatedFieldBuilder<
+          org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder> attributesBuilder_;
+      
+      public java.util.List<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity> getAttributesList() {
+        if (attributesBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(attributes_);
+        } else {
+          return attributesBuilder_.getMessageList();
+        }
+      }
+      public int getAttributesCount() {
+        if (attributesBuilder_ == null) {
+          return attributes_.size();
+        } else {
+          return attributesBuilder_.getCount();
+        }
+      }
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity getAttributes(int index) {
+        if (attributesBuilder_ == null) {
+          return attributes_.get(index);
+        } else {
+          return attributesBuilder_.getMessage(index);
+        }
+      }
+      public Builder setAttributes(
+          int index, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity value) {
+        if (attributesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAttributesIsMutable();
+          attributes_.set(index, value);
+          onChanged();
+        } else {
+          attributesBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      public Builder setAttributes(
+          int index, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder builderForValue) {
+        if (attributesBuilder_ == null) {
+          ensureAttributesIsMutable();
+          attributes_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          attributesBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      public Builder addAttributes(org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity value) {
+        if (attributesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAttributesIsMutable();
+          attributes_.add(value);
+          onChanged();
+        } else {
+          attributesBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      public Builder addAttributes(
+          int index, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity value) {
+        if (attributesBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAttributesIsMutable();
+          attributes_.add(index, value);
+          onChanged();
+        } else {
+          attributesBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      public Builder addAttributes(
+          org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder builderForValue) {
+        if (attributesBuilder_ == null) {
+          ensureAttributesIsMutable();
+          attributes_.add(builderForValue.build());
+          onChanged();
+        } else {
+          attributesBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      public Builder addAttributes(
+          int index, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder builderForValue) {
+        if (attributesBuilder_ == null) {
+          ensureAttributesIsMutable();
+          attributes_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          attributesBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      public Builder addAllAttributes(
+          java.lang.Iterable<? extends org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity> values) {
+        if (attributesBuilder_ == null) {
+          ensureAttributesIsMutable();
+          super.addAll(values, attributes_);
+          onChanged();
+        } else {
+          attributesBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      public Builder clearAttributes() {
+        if (attributesBuilder_ == null) {
+          attributes_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          attributesBuilder_.clear();
+        }
+        return this;
+      }
+      public Builder removeAttributes(int index) {
+        if (attributesBuilder_ == null) {
+          ensureAttributesIsMutable();
+          attributes_.remove(index);
+          onChanged();
+        } else {
+          attributesBuilder_.remove(index);
+        }
+        return this;
+      }
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder getAttributesBuilder(
+          int index) {
+        return getAttributesFieldBuilder().getBuilder(index);
+      }
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder getAttributesOrBuilder(
+          int index) {
+        if (attributesBuilder_ == null) {
+          return attributes_.get(index);  } else {
+          return attributesBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      public java.util.List<? extends org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder> 
+           getAttributesOrBuilderList() {
+        if (attributesBuilder_ != null) {
+          return attributesBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(attributes_);
+        }
+      }
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder addAttributesBuilder() {
+        return getAttributesFieldBuilder().addBuilder(
+            org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.getDefaultInstance());
+      }
+      public org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder addAttributesBuilder(
+          int index) {
+        return getAttributesFieldBuilder().addBuilder(
+            index, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.getDefaultInstance());
+      }
+      public java.util.List<org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder> 
+           getAttributesBuilderList() {
+        return getAttributesFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder> 
+          getAttributesFieldBuilder() {
+        if (attributesBuilder_ == null) {
+          attributesBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder, org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntityOrBuilder>(
+                  attributes_,
+                  ((bitField0_ & 0x00000001) == 0x00000001),
+                  getParentForChildren(),
+                  isClean());
+          attributes_ = null;
+        }
+        return attributesBuilder_;
+      }
+      
+      // @@protoc_insertion_point(builder_scope:org.colorfuldays.ssm.domain.protobuf.Session)
+    }
+    
+    static {
+      defaultInstance = new Session(true);
+      defaultInstance.initFields();
+    }
+    
+    // @@protoc_insertion_point(class_scope:org.colorfuldays.ssm.domain.protobuf.Session)
   }
   
   private static com.google.protobuf.Descriptors.Descriptor
@@ -1234,10 +2254,20 @@ public final class Ssm {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_org_colorfuldays_ssm_domain_protobuf_User_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_org_colorfuldays_ssm_domain_protobuf_book_descriptor;
+    internal_static_org_colorfuldays_ssm_domain_protobuf_Book_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_org_colorfuldays_ssm_domain_protobuf_book_fieldAccessorTable;
+      internal_static_org_colorfuldays_ssm_domain_protobuf_Book_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_org_colorfuldays_ssm_domain_protobuf_Session_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_org_colorfuldays_ssm_domain_protobuf_Session_fieldAccessorTable;
   
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1249,10 +2279,13 @@ public final class Ssm {
     java.lang.String[] descriptorData = {
       "\n\tssm.proto\022$org.colorfuldays.ssm.domain" +
       ".protobuf\"2\n\004User\022\n\n\002id\030\001 \001(\003\022\014\n\004name\030\002 " +
-      "\001(\t\022\020\n\010password\030\003 \001(\t\"T\n\004book\022\n\n\002id\030\001 \001(" +
+      "\001(\t\022\020\n\010password\030\003 \001(\t\"T\n\004Book\022\n\n\002id\030\001 \001(" +
       "\003\022\014\n\004name\030\002 \001(\t\022\014\n\004isbn\030\003 \001(\t\022\016\n\006author\030" +
-      "\004 \003(\t\022\024\n\014publish_date\030\005 \001(\003B&\n$org.color" +
-      "fuldays.ssm.domain.protobuf"
+      "\004 \003(\t\022\024\n\014publish_date\030\005 \001(\003\"\'\n\tMapEntity" +
+      "\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\"N\n\007Session\022" +
+      "C\n\nattributes\030\001 \003(\0132/.org.colorfuldays.s" +
+      "sm.domain.protobuf.MapEntityB&\n$org.colo" +
+      "rfuldays.ssm.domain.protobuf"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -1267,14 +2300,30 @@ public final class Ssm {
               new java.lang.String[] { "Id", "Name", "Password", },
               org.colorfuldays.ssm.domain.protobuf.Ssm.User.class,
               org.colorfuldays.ssm.domain.protobuf.Ssm.User.Builder.class);
-          internal_static_org_colorfuldays_ssm_domain_protobuf_book_descriptor =
+          internal_static_org_colorfuldays_ssm_domain_protobuf_Book_descriptor =
             getDescriptor().getMessageTypes().get(1);
-          internal_static_org_colorfuldays_ssm_domain_protobuf_book_fieldAccessorTable = new
+          internal_static_org_colorfuldays_ssm_domain_protobuf_Book_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-              internal_static_org_colorfuldays_ssm_domain_protobuf_book_descriptor,
+              internal_static_org_colorfuldays_ssm_domain_protobuf_Book_descriptor,
               new java.lang.String[] { "Id", "Name", "Isbn", "Author", "PublishDate", },
-              org.colorfuldays.ssm.domain.protobuf.Ssm.book.class,
-              org.colorfuldays.ssm.domain.protobuf.Ssm.book.Builder.class);
+              org.colorfuldays.ssm.domain.protobuf.Ssm.Book.class,
+              org.colorfuldays.ssm.domain.protobuf.Ssm.Book.Builder.class);
+          internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_descriptor =
+            getDescriptor().getMessageTypes().get(2);
+          internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_fieldAccessorTable = new
+            com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+              internal_static_org_colorfuldays_ssm_domain_protobuf_MapEntity_descriptor,
+              new java.lang.String[] { "Key", "Value", },
+              org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.class,
+              org.colorfuldays.ssm.domain.protobuf.Ssm.MapEntity.Builder.class);
+          internal_static_org_colorfuldays_ssm_domain_protobuf_Session_descriptor =
+            getDescriptor().getMessageTypes().get(3);
+          internal_static_org_colorfuldays_ssm_domain_protobuf_Session_fieldAccessorTable = new
+            com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+              internal_static_org_colorfuldays_ssm_domain_protobuf_Session_descriptor,
+              new java.lang.String[] { "Attributes", },
+              org.colorfuldays.ssm.domain.protobuf.Ssm.Session.class,
+              org.colorfuldays.ssm.domain.protobuf.Ssm.Session.Builder.class);
           return null;
         }
       };

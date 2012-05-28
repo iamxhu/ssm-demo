@@ -33,6 +33,7 @@
             <map>
                 <entry key="org.colorfuldays.ssm.domain.BookDO" value-ref="jsonTranscoder"/>
                 <entry key="org.colorfuldays.ssm.domain.UserDO" value-ref="userProtobufTranscoder"/>
+                <entry key="org.colorfuldays.ssm.domain.Session" value-ref="sessionPBTranscoder"/>
             </map>
         </property>
     </bean>
@@ -48,6 +49,7 @@
     </bean>
 
     <bean name="userProtobufTranscoder" class="org.colorfuldays.ssm.transcoders.ProtobufTranscoder"/>
+    <bean name="sessionPBTranscoder" class="org.colorfuldays.ssm.transcoders.SessionPBTranscoder"/>
     <bean name="longToStringTranscoder" class="com.google.code.ssm.transcoders.LongToStringTranscoder"/>
     <bean name="JsonObjectMapper" class="org.codehaus.jackson.map.ObjectMapper"/>
 </beans>

@@ -2,6 +2,7 @@ package org.colorfuldays.ssm.dao;
 
 import junit.framework.Assert;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.colorfuldays.ssm.BaseTestngTest;
 import org.colorfuldays.ssm.domain.UserDO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +20,7 @@ import java.io.IOException;
  * Time: 下午6:14
  */
 
-public class UserDAOTest extends BaseTestngTest{
+public class UserDAOTest extends BaseTestngTest {
     private static final Logger LOG = LoggerFactory.getLogger(UserDAOTest.class);
     @Resource
     UserDAO userDAO;

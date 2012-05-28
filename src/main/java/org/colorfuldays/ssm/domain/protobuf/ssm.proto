@@ -14,10 +14,20 @@ message User{
     optional string password = 3;
 }
 
-message book{
+message Book{
     optional int64 id = 1;
     optional string name = 2;
     optional string isbn = 3;
     repeated string author = 4;
     optional int64 publish_date = 5;
+}
+
+message MapEntity{
+    optional string key = 1;
+    optional string value = 2;
+}
+
+message Session{
+    optional int64 sessionId = 1;
+    repeated MapEntity attributes = 2;
 }

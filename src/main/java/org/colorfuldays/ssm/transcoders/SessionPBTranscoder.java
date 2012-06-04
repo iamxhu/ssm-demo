@@ -9,8 +9,6 @@ import org.colorfuldays.ssm.domain.protobuf.Ssm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Iterator;
-
 /**
  * Created by IntelliJ IDEA.
  * User: huxing(xing.hu@360hqb.com)
@@ -33,12 +31,10 @@ public class SessionPBTranscoder implements CacheTranscoder<Session> {
     @Override
     public CachedObject encode(Session session) {
         Ssm.Session.Builder builder = Ssm.Session.newBuilder();
-        Iterator<String> iterator = session.getAttributeKeySet().iterator();
-        int index = 0;
-        while (iterator.hasNext()) {
+        for (String key : session.getAttributeKeySet()) {
             Ssm.MapEntity.Builder entityBuilder = Ssm.MapEntity.newBuilder();
-            entityBuilder.setKey(iterator.next()).setValue(session.getAttribute(iterator.next()));
-            builder.setAttributes(index, entityBuilder.build());
+            entityBuilder.setKey(key).setValue(session.getAttribute(key));
+            builder.addAttributes(entityBuilder.build());
         }
 
         return new CachedObjectImpl(PROTOBUF_SERIALIZED,builder.build().toByteArray());
